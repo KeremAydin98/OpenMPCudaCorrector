@@ -15,14 +15,23 @@ Construction of a chatbot such as ChatGPT is done by fine-tuning large language 
 Even though it is a very powerful system as stated above, without fine-tuning the GPT model, ChatGPT could not always detect a performance problem in a given code. For example, in the Figure 1 below, an output of ChatGPT is represented for a given code.
 
 Correct execution for performance fixing of ChatGPT
-<img width="680" alt="ChatGPToutput01" src="https://github.com/KeremAydin98/OpenMPCudaCorrector/assets/77073029/bc3ee890-8be5-4477-a542-95d95aa792a9">
-Figure 1: Correct execution for performance fixing of ChatGPT
+<p align="center">
+  <img src="https://github.com/KeremAydin98/OpenMPCudaCorrector/assets/77073029/bc3ee890-8be5-4477-a542-95d95aa792a9"/>
+</p>
+<p align="center">
+    Figure 1: Correct execution for performance fixing of ChatGPT
+</p>
 
 From this figure, we can see that ChatGPT detects a performance problem in the code and proposes a correct solution that fixes it. However, when the code becomes a little bit more complicated, ChatGPT fails to detect a performance problem. An example of this is given in Figure 2.
 
 Incorrect execution for performance fixing of ChatGPT
-<img width="714" alt="ChatGPToutput02" src="https://github.com/KeremAydin98/OpenMPCudaCorrector/assets/77073029/e34cb6d4-20ec-4a8b-88d3-2d1dc5596ec6">
-Figure 2: Incorrect execution for performance fixing of ChatGPT
+
+<p align="center">
+  <img src="https://github.com/KeremAydin98/OpenMPCudaCorrector/assets/77073029/e34cb6d4-20ec-4a8b-88d3-2d1dc5596ec6"/>
+</p>
+<p align="center">
+    Figure 2: Incorrect execution for performance fixing of ChatGPT
+</p>
 
 OpenAI offers an API to use or fine-tune ChatGPT base models. Offered models are not as powerful as ChatGPT but still competent. In this project, we have focused on the following two tasks:
 
